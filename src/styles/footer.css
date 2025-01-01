@@ -1,0 +1,167 @@
+/* footer.css */
+
+.footer-area {
+  background-color: #0d1b2a;
+  padding-top: 60px;
+  color: #ffffff;
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+}
+
+.foo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+  flex-wrap: wrap;
+}
+
+.hss{
+  max-width: 350px;
+  height: auto;
+}
+
+.col-lg-3,
+.col-md-6 {
+  flex: 1 1 23%;
+  max-width: 23%;
+  margin: 15px 1%;
+  box-sizing: border-box;
+}
+
+.footer-box {
+  margin-bottom: 30px;
+}
+
+.footer-box .widget-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.footer-box .widget-title:after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #F28123;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
+.footer-box p {
+  color: #999999;
+}
+
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-box ul li {
+  color: #999999;
+  margin-bottom: 10px;
+}
+
+.footer-box ul li a {
+  color: #999999;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-box ul li a:hover {
+  color: #F28123;
+}
+
+.footer-box .subscribe form {
+  display: flex;
+  margin-top: 15px;
+}
+
+.footer-box .subscribe input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  width: calc(100% - 50px);
+}
+
+.footer-box .subscribe button {
+  padding: 10px;
+  border: none;
+  background-color: #F28123;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+.footer-box .subscribe button i {
+  font-size: 16px;
+}
+
+.footer-bottom {
+  background-color: #0c1a2b;
+  padding: 20px 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer-bottom a {
+  color: #F28123;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom .social-icons {
+  margin-top: 20px;
+}
+
+.footer-bottom .social-icons a {
+  color: #999999;
+  font-size: 18px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom .social-icons a:hover {
+  color: #F28123;
+}
+
+/* Media Queries */
+@media (max-width: 991.98px) {
+  .foo {
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .col-lg-3,
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 15px 0;
+  }
+
+  .footer-bottom {
+    padding: 10px 0;
+  }
+
+  .footer-bottom p,
+  .footer-bottom .social-icons {
+    text-align: center;
+    margin: 0;
+  }
+
+  .footer-bottom .social-icons {
+    margin-top: 10px;
+  }
+}
+
+
