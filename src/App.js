@@ -12,34 +12,7 @@ import Logos from "./components/Pages/logos";
 import "./styles/app.css";
 
 const App = () => {
-  // const [datas, setData] = useState([]);
-  // const [products, setProducts] = useState([]);
-  // const [added, setAdded] = useState(0);
-  // const [prdQt, setPrdQt] = useState(0);
-  // const [cartId, setCartId] = useState(0);
-  // const [cartName, setCartName] = useState("");
-  // const [cartQt, setCartQt] = useState(0);
-  // const [cartPrice, setCartPrice] = useState(0);
 
-  // const getData = async () => {
-  //   const res = await fetch("./db/db.json");
-  //   const data = await res.json();
-  //   setData(data);
-  // };
-
-  // const getProducts = async () => {
-  //   const res = await fetch("./db/products.json");
-  //   const data = await res.json();
-  //   setProducts(data);
-  // };
-
-  // const addQt = () => setPrdQt(prdQt + 1);
-  // const rmvQt = () => (prdQt > 0 ? setPrdQt(prdQt - 1) : null);
-
-  // useEffect(() => {
-  //   getData();
-  //   getProducts();
-  // }, []);
 
   return (
     <div className="box">
