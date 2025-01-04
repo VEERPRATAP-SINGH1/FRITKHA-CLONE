@@ -19,16 +19,7 @@ const App = () => {
       <div className="hContainer">
         <header className="container">
           <Header
-            // added={added}
-            // setAdded={setAdded}
-            // cartId={cartId}
-            // setCartId={setCartId}
-            // cartName={cartName}
-            // setCartName={setCartName}
-            // cartQt={cartQt}
-            // setCartQt={setCartQt}
-            // cartPrice={cartPrice}
-            // setCartPrice={setCartPrice}
+           
           />
         </header>
       </div>
