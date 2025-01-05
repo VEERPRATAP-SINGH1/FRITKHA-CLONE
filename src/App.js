@@ -25,22 +25,7 @@ const App = () => {
       </div>
       <section>
         <Home
-          // datas={datas}
-          // products={products}
-          // added={added}
-          // setAdded={setAdded}
-          // prdQt={prdQt}
-          // addQt={addQt}
-          // rmvQt={rmvQt}
-          // setPrdQt={setPrdQt}
-          // cartId={cartId}
-          // setCartId={setCartId}
-          // cartName={cartName}
-          // setCartName={setCartName}
-          // cartQt={cartQt}
-          // setCartQt={setCartQt}
-          // cartPrice={cartPrice}
-          // setCartPrice={setCartPrice}
+          
         />
       {/* </section>
       <section> */}
